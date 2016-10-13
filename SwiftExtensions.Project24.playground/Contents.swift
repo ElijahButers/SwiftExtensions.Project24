@@ -11,3 +11,4 @@ extension Int {
 var myInt = 0
 
 myInt.plusOne()
+5.plusOne()
