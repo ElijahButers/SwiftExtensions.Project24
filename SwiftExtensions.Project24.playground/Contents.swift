@@ -8,7 +8,7 @@ extension Int {
     }
 }
 
-var myInt = 0
+var myInt = 10
 
 myInt.plusOne()
-5.plusOne()
+myInt
