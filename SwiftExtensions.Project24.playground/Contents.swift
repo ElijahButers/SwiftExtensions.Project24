@@ -12,3 +12,6 @@ var myInt = 10
 
 myInt.plusOne()
 myInt
+
+let otherInt = 10
+otherInt.plusOne()
