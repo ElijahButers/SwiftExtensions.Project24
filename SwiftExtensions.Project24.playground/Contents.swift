@@ -3,8 +3,8 @@
 import UIKit
 
 extension Int {
-    func plusOne() -> Int {
-        return self + 1
+    mutating func plusOne() {
+        self += 1
     }
 }
 
