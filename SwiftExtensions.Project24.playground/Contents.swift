@@ -16,8 +16,8 @@ import UIKit
 //let otherInt = 10
 //otherInt.plusOne()
 
-extension Int {
-    func squared() -> Int {
+extension Integer {
+    func squared() -> Self {
         return self * self
     }
 }
