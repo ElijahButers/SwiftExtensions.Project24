@@ -2,16 +2,23 @@
 
 import UIKit
 
+//extension Int {
+//    mutating func plusOne() {
+//        self += 1
+//    }
+//}
+//
+//var myInt = 10
+//
+//myInt.plusOne()
+//myInt
+//
+//let otherInt = 10
+//otherInt.plusOne()
+
 extension Int {
-    mutating func plusOne() {
-        self += 1
+    
+    func squared() -> Int {
+        return self * self
     }
 }
-
-var myInt = 10
-
-myInt.plusOne()
-myInt
-
-let otherInt = 10
-otherInt.plusOne()
