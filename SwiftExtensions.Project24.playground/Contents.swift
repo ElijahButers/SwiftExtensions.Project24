@@ -22,3 +22,6 @@ extension Int {
         return self * self
     }
 }
+
+let i: Int = 8
+print(i.squared())
